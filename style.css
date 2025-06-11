@@ -106,7 +106,12 @@ img{
     color: hsl(215, 51%, 70%);
 }
 
-.name p span{
+.name p a{
     color: white;
+    text-decoration: none;
+}
+
+.name p a:hover{
+    color: rgb(0, 255, 255);
 }
 
